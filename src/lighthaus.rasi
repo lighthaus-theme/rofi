@@ -69,6 +69,11 @@ configuration {
     background-color:     @bg;
 }
 
+#element-text, element-icon {
+    background-color:     inherit;
+    text-color:           inherit;
+}
+
 #element.selected.normal {
     background-color:     @bg-alternate;
     text-color:           @fg-highlight;
